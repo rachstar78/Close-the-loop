@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-[1080px] items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2.5 font-bold tracking-tight">
-          <span className="inline-block h-[22px] w-[22px] -rotate-45 rounded-full border-[3px] border-accent border-r-transparent" />
+          <Image src="/brand/ctl-icon.svg" alt="" width={22} height={22} priority />
           Close&nbsp;the&nbsp;Loop
         </Link>
         <div className="flex items-center gap-7">
