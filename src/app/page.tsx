@@ -1,7 +1,7 @@
 import Hero from "@/components/home/Hero";
 import Problem from "@/components/home/Problem";
 import HowItWorks from "@/components/home/HowItWorks";
-import Loop from "@/components/home/Loop";
+import Rundown from "@/components/home/Rundown";
 import Roi from "@/components/home/Roi";
 import Cta from "@/components/home/Cta";
 
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <HowItWorks />
-      <Loop />
+      <Rundown />
       <Roi />
       <Cta />
     </>

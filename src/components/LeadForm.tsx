@@ -24,7 +24,7 @@ export default function LeadForm({
   if (submitted) {
     return (
       <p className={`mt-3.5 font-semibold text-accent ${align === "center" ? "text-center" : ""}`}>
-        Thanks — you&apos;re on the list. We&apos;ll be in touch about your free report.
+        Thanks — you&apos;re on the list. We&apos;ll be in touch to set up your free rundown.
       </p>
     );
   }

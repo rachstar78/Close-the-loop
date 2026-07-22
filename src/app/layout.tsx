@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Close the Loop — The org brain for agencies",
+  title: "Close the Loop — everything your agency knows, in one place",
   description:
-    "Every client, project, and decision your agency has ever made — instantly usable by your team and your AI tools. Plus a weekly read on where lost knowledge is costing you margin.",
+    "Close the Loop pulls together everything your agency knows from Drive, Slack, Notion, Asana and meeting notes — so anyone gets a straight answer in seconds, and every week you see where work is stuck and which clients need a nudge.",
 };
 
 export default function RootLayout({

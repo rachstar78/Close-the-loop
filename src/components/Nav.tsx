@@ -16,8 +16,8 @@ export default function Nav() {
           <Link href="/#how" className="hidden text-sm text-muted hover:text-text sm:inline">
             How it works
           </Link>
-          <Link href="/#loop" className="hidden text-sm text-muted hover:text-text sm:inline">
-            The loop
+          <Link href="/#rundown" className="hidden text-sm text-muted hover:text-text sm:inline">
+            Your rundown
           </Link>
           <Link href="/about" className="hidden text-sm text-muted hover:text-text sm:inline">
             About

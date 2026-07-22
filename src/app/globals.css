@@ -10,6 +10,8 @@
   --color-accent: #5eead4;
   --color-accent-2: #7c9cff;
   --color-warn: #f6c177;
+  --color-danger: #f38a8a;
+  --color-success: #7fd1b0;
   --radius-card: 16px;
 }
 
@@ -23,6 +25,8 @@
   --color-accent: var(--color-accent);
   --color-accent-2: var(--color-accent-2);
   --color-warn: var(--color-warn);
+  --color-danger: var(--color-danger);
+  --color-success: var(--color-success);
   --radius-card: var(--radius-card);
   --font-sans: var(--font-inter);
 }
